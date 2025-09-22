@@ -15,9 +15,11 @@ This helped redefine leaf compartments based on similar disease behavior.
 
 All analyses were undertaken using R version 4.4.2 (http://www.r-project.org) with a two-sided p<0.05 considered statistically significant. 
 
-- Functional analyses were performed using the *refund* package (version 0.1-37, https://cran.r-project.org/web/packages/refund/index.html) 
-- Clustering was performed using the *stats* package (version 4.4.2.).  
-- Generalized linear mixed models were fitted using the *lme4* package (version 1.1-37, https://cran.r-project.org/web/packages/lme4/index.html) and the Estimated Marginal Means were computed using the *emmeans* package (version 1.11.1., https://cran.r-project.org/web/packages/emmeans/index.html).
+- Exploratory and descriptives statistics were produced using the *corrplot* (version 0.95), *arsenal* (version 3.6.3), and *multcomp* (version 1.4-28) packages.  
+- Functional analyses were performed using the *refund* package (version 0.1-37) 
+- Clustering was performed using the *stats* package (version 4.4.2.). Clusters' visualizations were obtained using the *cluster*, *FactoMineR* (version 2.11), and *factoextra* (version 1.0.7) packages. 
+- Generalized linear mixed models were fitted using the *lme4* package (version 1.1-37) and the Estimated Marginal Means were computed using the *emmeans* package (version 1.11.1).
+- Correspondance analysis was performed using the *FactoMineR* package (version 2.11). 
 
 ## Authors 
 Marine Seidel ${1,4}$ *, Mathilde Chen ${2,4}$, Jacques Avelino ${2,4}$, Fabienne Ribeyre ${2,4}$, Clara Landry ${1,4}$, Catherine Abadie ${3,4}$
@@ -33,9 +35,9 @@ ${4}$ PHIM, CIRAD, INRAE, Institut Agro, IRD, Université de Montpellier, Montpe
 *Corresponding author contact: marine.seidel@cirad.fr
 
 Authors ORCID:
-- Marine Seidel : 0009-0002-3786-4673
-- Mathilde Chen : 0000-0002-5982-2143
-- Jacques Avelino : 0000-0003-1983-9431
+- Marine Seidel    : 0009-0002-3786-4673
+- Mathilde Chen    : 0000-0002-5982-2143
+- Jacques Avelino  : 0000-0003-1983-9431
 - Fabienne Ribeyre : 0000-0001-9721-1485
 - Catherine Abadie : 0000-0002-5075-6338
 
