@@ -1,0 +1,45 @@
+# Heterogeneous disease progress of Black Leaf Streak Disease of banana at within-leaf scale
+
+### Summary
+This repository contains scripts supporting a paper aiming to investigated the within-leaf progress of Black Leaf Streak Disease (BLSD) of banana, a crop with some of the largest leaves among cultivated plants. 
+Disease progress was monitored under natural infection on nine leaves, each divided into seven predefined spatial compartments and 22 fragments (3512 mm² each) within these compartments. 
+The diseased area was assessed in these fragments twice a week. 
+Functional principal component analysis was used to model disease progress over time. 
+Clustering of the disease progress revealed distinct patterns that were linked to the predefined leaf compartments through a correspondence analysis. 
+This helped redefine leaf compartments based on similar disease behavior. 
+
+### Packages required 
+
+All analyses were undertaken using R version 4.4.2 (http://www.r-project.org) with a two-sided p<0.05 considered statistically significant. 
+Functional analyses were performed using the *refund* package (version 0.1-37, https://cran.r-project.org/web/packages/refund/index.html). 
+Clustering was performed using the *stats* package (version 4.4.2.).  
+Generalized linear mixed models were fitted using the *lme4* package (version 1.1-37, https://cran.r-project.org/web/packages/lme4/index.html) and the Estimated Marginal Means were computed using the *emmeans* package (version 1.11.1., https://cran.r-project.org/web/packages/emmeans/index.html).
+
+### Analyses step and corresponding scripts
+<img width="2741" height="3263" alt="Git_Repo_organisation" src="https://github.com/user-attachments/assets/d7c514f2-38b1-4c94-8ca7-5ce019c0d483" />
+
+## Authors 
+Marine Seidel ${1,4}$ *, Mathilde Chen ${2,4}$, Jacques Avelino ${2,4}$, Fabienne Ribeyre ${2,4}$, Clara Landry ${1,4}$, Catherine Abadie ${3,4}$
+
+${1}$ CIRAD, UMR PHIM, F-97130 Capesterre-Belle-Eau, Guadeloupe, France.
+
+${2}$ CIRAD, UMR PHIM, F-34398 Montpellier, France.
+
+${3}$ CIRAD, UMR PHIM, 30501 Turrialba, Costa Rica.
+
+${4}$ PHIM, CIRAD, INRAE, Institut Agro, IRD, Université de Montpellier, Montpellier, France.
+
+*Corresponding author contact: marine.seidel@cirad.fr
+
+Authors ORCID:
+- Marine Seidel : 0009-0002-3786-4673
+- Mathilde Chen : 0000-0002-5982-2143
+- Jacques Avelino : 0000-0003-1983-9431
+- Fabienne Ribeyre : 0000-0001-9721-1485
+- Catherine Abadie : 0000-0002-5075-6338
+
+## Key words 
+*Pseudocercospora fijiensis*, dynamics, spatial pattern, functional data analysis, Dominican Republic, plantain
+
+
+
