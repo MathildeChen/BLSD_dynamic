@@ -1,12 +1,12 @@
 # Heterogeneous disease progress of Black Leaf Streak Disease of banana at within-leaf scale
 
 ### Summary
-This repository contains scripts supporting a paper aiming to investigated the within-leaf progress of Black Leaf Streak Disease (BLSD) of banana, a crop with some of the largest leaves among cultivated plants. 
-Disease progress was monitored under natural infection on nine leaves, each divided into seven predefined spatial compartments and 22 fragments (3512 mm² each) within these compartments. 
-The diseased area was assessed in these fragments twice a week. 
-Functional principal component analysis was used to model disease progress over time. 
-Clustering of the disease progress revealed distinct patterns that were linked to the predefined leaf compartments through a correspondence analysis. 
-This helped redefine leaf compartments based on similar disease behavior. 
+This repository contains scripts supporting a paper aiming to investigate the within-leaf progress of Black Leaf Streak Disease (BLSD) of banana plantain. 
+Disease progress was measured over time in 192 leaf fragments of 3512 mm² taken from 9 banana leaves. 
+Each fragment was monitored twice a week until fully covered by the disease. 
+Functional principal component analysis was used to identify the main sources of variability in the disease progress over all individual fragments. 
+Four groups of fragments with similar patterns of disease progress were clustered using k-means algorithm.
+The study revealed distinct temporal patterns that were significantly different from each other and linked to the predefined leaf compartments through a correspondence analysis. 
 
 ### Analyses step and corresponding scripts
 <img width="2741" height="3263" alt="Git_Repo_organisation" src="https://github.com/user-attachments/assets/d7c514f2-38b1-4c94-8ca7-5ce019c0d483" />
