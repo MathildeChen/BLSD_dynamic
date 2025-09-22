@@ -8,15 +8,16 @@ Functional principal component analysis was used to model disease progress over 
 Clustering of the disease progress revealed distinct patterns that were linked to the predefined leaf compartments through a correspondence analysis. 
 This helped redefine leaf compartments based on similar disease behavior. 
 
+### Analyses step and corresponding scripts
+<img width="2741" height="3263" alt="Git_Repo_organisation" src="https://github.com/user-attachments/assets/d7c514f2-38b1-4c94-8ca7-5ce019c0d483" />
+
 ### Packages required 
 
 All analyses were undertaken using R version 4.4.2 (http://www.r-project.org) with a two-sided p<0.05 considered statistically significant. 
-Functional analyses were performed using the *refund* package (version 0.1-37, https://cran.r-project.org/web/packages/refund/index.html). 
-Clustering was performed using the *stats* package (version 4.4.2.).  
-Generalized linear mixed models were fitted using the *lme4* package (version 1.1-37, https://cran.r-project.org/web/packages/lme4/index.html) and the Estimated Marginal Means were computed using the *emmeans* package (version 1.11.1., https://cran.r-project.org/web/packages/emmeans/index.html).
 
-### Analyses step and corresponding scripts
-<img width="2741" height="3263" alt="Git_Repo_organisation" src="https://github.com/user-attachments/assets/d7c514f2-38b1-4c94-8ca7-5ce019c0d483" />
+- Functional analyses were performed using the *refund* package (version 0.1-37, https://cran.r-project.org/web/packages/refund/index.html) 
+- Clustering was performed using the *stats* package (version 4.4.2.).  
+- Generalized linear mixed models were fitted using the *lme4* package (version 1.1-37, https://cran.r-project.org/web/packages/lme4/index.html) and the Estimated Marginal Means were computed using the *emmeans* package (version 1.11.1., https://cran.r-project.org/web/packages/emmeans/index.html).
 
 ## Authors 
 Marine Seidel ${1,4}$ *, Mathilde Chen ${2,4}$, Jacques Avelino ${2,4}$, Fabienne Ribeyre ${2,4}$, Clara Landry ${1,4}$, Catherine Abadie ${3,4}$
