@@ -9,7 +9,8 @@ Four groups of fragments with similar patterns of disease progress were clustere
 The study revealed distinct temporal patterns that were significantly different from each other and linked to the predefined leaf compartments through a correspondence analysis. 
 
 ### Analyses step and corresponding scripts
-<img width="2741" height="3263" alt="Git_Repo_organisation" src="https://github.com/user-attachments/assets/d7c514f2-38b1-4c94-8ca7-5ce019c0d483" />
+<img width="4058" height="3885" alt="Git_Repo_organisation" src="https://github.com/user-attachments/assets/3adc1384-0fea-472e-8bd4-bf325b6520cf" />
+
 
 ### Packages required 
 
